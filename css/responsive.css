@@ -1,0 +1,60 @@
+
+/* TABLET RESIZING */
+@media screen and (max-width: 768px) {
+
+body{
+    font-size: 1.06rem;
+    max-width: 768px;;
+}
+
+.container{
+    width: 100%;
+    padding: 0;
+}
+}
+
+/* SMARTPHONE RESIZING */
+@media screen and (max-width: 480px) {
+    body{
+        font-size: 1.06rem;
+        max-width: 480px;
+    }
+
+    body > main > section.steps.text-center{
+        margin-bottom: 0;
+    }
+
+    body > main > section.why-us > div > div > div.col.col-left{
+        padding-bottom: 4rem;
+    }
+
+    p.text{
+        padding-bottom: 3rem;
+    }
+
+    .steps{
+        padding: 0;
+        margin: 0;
+        padding-top: 3rem;
+    }
+
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .col{
+        flex-basis: 100%;
+        padding: 0 4rem;
+    }
+
+    .why-us .container{
+        background-color: #222222;
+        padding: 3rem 0;
+    }
+    
+}
